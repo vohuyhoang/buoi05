@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Thêm mới</title>
+</head>
+<body>
+<style>
+  h1{
+    text-align: center;
+  }
+  .all{
+    text-align: center;
+    background-color: aqua;
+    width: 700px;
+    display: block;
+    margin-left: 65px;
+    border-radius: 100px;
+  }
+  .all .as{
+    padding-top: 10px;
+  }
+  button{
+    margin-top: 20px;
+  }
+  a{
+        text-decoration: none;
+        background-color: #ddd;
+        color: #000 ;
+        padding: 8px 20px 8px 20px;
+        border-radius: 100px;
+  }
+  .ii {
+    margin-top: 30px;
+    text-align: center;
+  }
+</style>
+
+  <h1 class="themsanpham">Thêm sản phẩm</h1>
+ 
+  <div class="all">
+    <form action="/courses/add" method="POST">
+      <div class="as">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="as">
+        <label for="hinh">Hinh:</label>
+        <input type="text" id="hinh" name="hinh">
+      </div>
+      <div class="as">
+        <label for="gia">Gia:</label>
+        <input type="text" id="gia" name="gia">
+      </div>
+      <div>
+        <button type="submit">Thêm</button>
+      </div>
+    </form>
+  </div>
+  <div class="ii">
+    <a href="/">Quay lại </a>
+  </div>
+</body>
+</html>
