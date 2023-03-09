@@ -8,18 +8,18 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 let courses = [
-  { id: 1, name: 'Điện thoại iPhone 14 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-200x200.jpg', gia: 29490000 },
-  { id: 2, name: 'iPhone 14 Pro', hinh: 'https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-200x200.jpg', gia: 10001 },
-  { id: 3, name: 'Điện thoại iPhone 14 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-200x200.jpg', gia: 29490000 },
-  { id: 4, name: 'Điện thoại iPhone 14 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-200x200.jpg', gia: 29490000 },
-  { id: 5, name: 'iPhone 14 Pro', hinh: 'https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-200x200.jpg', gia: 10001 },
-  { id: 6, name: 'Điện thoại iPhone 14 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-200x200.jpg', gia: 29490000 },
-  { id: 7, name: 'Điện thoại iPhone 14 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-200x200.jpg', gia: 29490000 },
-  { id: 8, name: 'iPhone 14 Pro', hinh: 'https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-200x200.jpg', gia: 10001 },
-  { id: 9, name: 'Điện thoại iPhone 14 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-200x200.jpg', gia: 29490000 },
-  { id: 10, name: 'Điện thoại iPhone 14 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-200x200.jpg', gia: 29490000 },
-  { id: 11, name: 'iPhone 14 Pro', hinh: 'https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-200x200.jpg', gia: 10001 },
-  { id: 12, name: 'Điện thoại iPhone 14 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-200x200.jpg', gia: 29490000 },
+  { id: 1, name: 'Điện thoại iPhone 13 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-200x200.jpg', gia: 29490000 },
+  { id: 2, name: 'iPhone 13 Pro', hinh: 'https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-200x200.jpg', gia: 10001 },
+  { id: 3, name: 'Điện thoại iPhone 13 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-200x200.jpg', gia: 29490000 },
+  { id: 4, name: 'Điện thoại iPhone 13 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-200x200.jpg', gia: 29490000 },
+  { id: 5, name: 'iPhone 13 Pro', hinh: 'https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-200x200.jpg', gia: 10001 },
+  { id: 6, name: 'Điện thoại iPhone 13 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-200x200.jpg', gia: 29490000 },
+  { id: 7, name: 'Điện thoại iPhone 13 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-200x200.jpg', gia: 29490000 },
+  { id: 8, name: 'iPhone 13 Pro', hinh: 'https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-200x200.jpg', gia: 10001 },
+  { id: 9, name: 'Điện thoại iPhone 13 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-200x200.jpg', gia: 29490000 },
+  { id: 10, name: 'Điện thoại iPhone 13 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-200x200.jpg', gia: 29490000 },
+  { id: 11, name: 'iPhone 13 Pro', hinh: 'https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-200x200.jpg', gia: 10001 },
+  { id: 12, name: 'Điện thoại iPhone 13 Pro Max 128GB', hinh: 'https://cdn.tgdd.vn/Products/Images/42/249948/samsung-galaxy-s23-ultra-1-200x200.jpg', gia: 29490000 },
 ]
 const ITEMS_PER_PAGE = 2;
 // hien thi danh sach
